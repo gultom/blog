@@ -49,6 +49,9 @@ return array(
 		*/
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/blog.db',
+            /* uncomment if using table prefix
+             * 'tablePrefix' => 'tbl_',
+             */
 		),
 		// uncomment the following to use a MySQL database
 		/*
